@@ -1,6 +1,6 @@
 import styles from "./NewsCard.module.scss"
 import { IData_SnippetNews } from "../../types/news-snippets"
-import utils from "../utils/dateFormat"
+import utils from "../../utils/dateFormat"
 import NewsHeader from "../NewsHeader/NewsHeader"
 import NewsText from "../NewsText/NewsText"
 import NewsTags from "../NewsTags/NewsTags"

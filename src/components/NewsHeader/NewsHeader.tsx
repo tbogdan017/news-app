@@ -1,9 +1,9 @@
 import styles from './NewsHeader.module.scss'
 import { Flex, Typography, Tag } from 'antd'
-import utils from '../utils/dateFormat'
+import utils from '../../utils/dateFormat'
 import { GlobalOutlined, BookOutlined, UserOutlined } from '@ant-design/icons'
 import { IData_SnippetNews } from '../../types/news-snippets'
-import { getFlag } from '../utils/flags'
+import { getFlag } from '../../utils/flags'
 
 const { Text } = Typography
 
