@@ -1,0 +1,28 @@
+@use '../../styles/variables' as *;
+
+.card_news__text_wrapper {
+    margin-top: 1.5em;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+    color: $tertiary-color;
+}
+
+.full {
+    color: $primary-text-color;
+    display: block;
+}
+
+.hidden {
+    color: $primary-text-color;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news_card__expand {
+    width: fit-content;
+    cursor: pointer;
+}

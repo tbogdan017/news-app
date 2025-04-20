@@ -1,0 +1,21 @@
+@use '../../styles/variables' as *;
+
+.news_card_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.news_card {
+    background: transparent;
+    width: 100%;
+    border: 1px solid rgba(255,255,255, 0.15);
+    height: fit-content;
+}
+
+.news_card__minimized {
+    width: 100%;
+    margin-bottom: 1.5em;
+    background: transparent;
+    border: 1px solid #1677ff;
+}

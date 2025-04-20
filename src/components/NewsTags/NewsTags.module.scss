@@ -1,0 +1,20 @@
+@use '../../styles/variables' as *;
+
+.tags_wrapper {
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+}
+
+.tags_words {
+    padding: 0.2em 1em;
+    background: transparent;
+    color: $secondary-text-color;
+    width: fit-content;
+    border: 0.6px solid #595959;
+    border-radius: 20px;
+}
+
+.tags_icon {
+    margin-right: 0.25em;
+}

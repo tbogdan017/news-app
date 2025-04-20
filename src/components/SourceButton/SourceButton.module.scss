@@ -1,0 +1,8 @@
+@use '../../styles/variables' as *;
+
+.source_btn {
+    margin-bottom: 1.5em;
+    color: $tertiary-color;
+    background: rgba(255,255,255, 0.1);
+    border: none;
+}

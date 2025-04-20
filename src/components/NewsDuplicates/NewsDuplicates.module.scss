@@ -1,0 +1,12 @@
+@use '../../styles/variables' as *;
+
+.duplicates_section {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.thick_arrow {
+    stroke-width: 80px;
+    stroke: $primary-text-color;
+}

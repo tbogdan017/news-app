@@ -1,0 +1,26 @@
+@use '../../styles/variables' as *;
+
+.news_card__sent {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background: #77f8b7;
+    color: black;
+    border-color: #77f8b7;
+}
+
+.news_card__icon {
+    color: $secondary-text-color;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.add_data {
+    color: $primary-text-color;
+    font-size: 0.8em;
+}
+
+.add_data2 {
+    color: $secondary-text-color;
+    font-size: 0.8em;
+}
