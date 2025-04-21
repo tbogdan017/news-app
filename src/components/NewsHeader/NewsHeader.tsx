@@ -4,6 +4,8 @@ import utils from '../../utils/dateFormat'
 import { GlobalOutlined, BookOutlined, UserOutlined } from '@ant-design/icons'
 import { IData_SnippetNews } from '../../types/news-snippets'
 import { getFlag } from '../../utils/flags'
+import squareIcon from '../../assets/square-icon.svg'
+import squareInfoIcon from '../../assets/square-info-icon.svg'
 
 const { Text } = Typography
 
@@ -82,8 +84,8 @@ export default function NewsHeader({ news, minimized = false }: NewsProps) {
                         </Tag>
                     }
 
-                    <img src="src/assets/square-info-icon.svg" className={styles.news_card__icon} />
-                    <img src="src/assets/square-icon.svg" className={styles.news_card__icon} />
+                    <img src={squareInfoIcon} className={styles.news_card__icon} />
+                    <img src={squareIcon} className={styles.news_card__icon} />
                 </Flex>
             </Flex>
 
